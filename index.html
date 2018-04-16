@@ -1,0 +1,77 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Fingerprint JS 2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+            <h5 class="my-0 mr-md-auto font-weight-normal">Proof of concept</h5>
+            
+            <a class="btn btn-outline-primary" href="javascript:void(0)" onclick="run()">Run</a>
+          </div>
+      
+          <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 class="display-4">Fingerprint JS 2</h1>
+            <p class="lead">This project will use significantly more sources for fingerprinting, all of them will be configurable, that is it should be possible to cherry-pick only the options you need or just enable them all.</p>
+          </div>
+      
+          <div class="container">
+            <div id="fingerprint-result" class="alert alert-primary" role="alert"></div>
+
+            <div id="options" class="btn-group-toggle" data-toggle="buttons"></div>
+            
+            <table id="result" class="table table-hover">
+                <colgroup>
+                    <col style="width: 200px;">
+                    <col />
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th scope="col">Key</th>
+                        <th scope="col">Value</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+      
+            <footer class="pt-4 my-md-5 pt-md-5 border-top">
+              <div class="row">
+                <div class="col-12 col-md">
+                  <img class="mb-2" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+                  <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
+                </div>
+              </div>
+            </footer>
+          </div>
+
+
+
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="js/vendor/jquery-3.2.1.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <script src="js/vendor/popper.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/fingerprint2.min.js"></script>
+    </body>
+</html>
